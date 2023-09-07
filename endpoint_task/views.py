@@ -19,8 +19,8 @@ def api_endpoint(request):
     utc_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # GitHub URLs
-    github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext'
-    github_repo_url = 'https://github.com/username/repo'
+    github_file_url = 'https://github.com/AyomiCoder/hngx-django-task/blob/main/endpoint_task/views.py'
+    github_repo_url = 'https://github.com/AyomiCoder/hngx-django-task.git'
 
     # Response object
     response_data = {
